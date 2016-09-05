@@ -52,6 +52,14 @@ aurelia.use
     ...
 ```
 
+For masking in non-input elements, you can use the SimpleConverter
+
+```html
+<require from="aurelia-mask/mask"></require>
+
+<p>${person.phoneNumber | mask:'(99) 9999-9999'}</p>
+```
+
 
 notes
 
